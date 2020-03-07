@@ -1,0 +1,29 @@
+  body {
+      font: 15px Arial;
+  }
+  
+  .container {
+      width: 100%;
+      margin: auto;
+      overflow: hidden;
+  }
+  
+  header {
+      font: 15px Arial;
+  }
+  
+  .main-header {
+      font: 15px Arial;
+  }
+  
+  #brandname {
+      font: 15px Arial;
+  }
+  
+  header h2 {
+      font: 15px Arial;
+  }
+  
+  .results {
+      font: 15px Arial;
+  }
