@@ -8,9 +8,12 @@
 
 <body>
 
+
+    <img src="{{url_for('static', filename='tile.png')}}">
+
     <header>
-        <div class="container">
-            <div id="brandname">
+        <div class="container ">
+            <div id="brandname ">
                 Machine Learning App with Flask by Thibault D.
             </div>
             <h2>Spam Detector - Result</h2>
@@ -19,12 +22,12 @@
 
     Massage: {{ input_text }}
 
-    <div class="results">
+    <div class="results ">
 
         {% if prediction == 1%}
-        <h4 style="color:#c72626"> Spam</h4>
+        <h4 style="color:#c72626 "> Spam</h4>
         {% elif prediction == 0%}
-        <h4 style="color:#117411"> Not a Spam</h4>
+        <h4 style="color:#117411 "> Not a Spam</h4>
         {% endif %}
 
     </div>
